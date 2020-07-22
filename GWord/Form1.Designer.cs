@@ -52,7 +52,7 @@
             this.numericUpDown1.Size = new System.Drawing.Size(69, 20);
             this.numericUpDown1.TabIndex = 0;
             this.numericUpDown1.Value = new decimal(new int[] {
-            2,
+            5,
             0,
             0,
             0});
@@ -83,6 +83,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(143, 26);
             this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "ШОКАК";
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label3
@@ -102,7 +103,7 @@
             this.textBox2.Size = new System.Drawing.Size(143, 26);
             this.textBox2.TabIndex = 0;
             this.textBox2.TabStop = false;
-            this.textBox2.Text = "**";
+            this.textBox2.Text = "*О**А";
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
